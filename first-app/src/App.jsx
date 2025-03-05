@@ -1,11 +1,13 @@
-const App = () => (
+import Greeting from "./components/Greeting";
 
-  <div>
+function App(){
+  return (
+    <div>
 
-    <p>Hello world</p>
+    <Greeting name="Juho" />
 
-  </div>
+    </div>
+  );
+}
 
-)
-
-export default App
+export default App;
